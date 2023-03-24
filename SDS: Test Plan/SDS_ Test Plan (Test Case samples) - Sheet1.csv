@@ -1,0 +1,23 @@
+TestCaseId,Component,Priority,Description/Test Summary,Pre-requisites,Test steps,Expected Results,Actual Results ,Status ,Test Executed By
+browsersearch_1,search_bar_module_1,P0,"Verify that when a user searches, search does not lead to an error","browser is launched
+","open any browser (google/firefox/safari), search a given term, press enter",Search should go through as expected,Search should go through as expected,passed,TestUser0
+avaialblenetworks_1,wifi_module_1,P1,"Verify that when a user searches for a particular website channel, the 
+Website loads completely ",computer is wifi connected ,open browser and search for a given term ,video should run smooth and not stop,video runs smooth and does not stop,passed,TestUser1
+hmtlwebsite_1,website_module_1,P2,Verify the ability of the device to maintain a stable internet connection,computer is wifi connected,open browser and find a html website to search,browser loads website,browser loads website,passed,TestUser2
+stableinternetconnection_1,video_module_1,P3,Verify the ability of the device to reconnect after a dropped internet ,computer must be already connected to the internet,open browser and run a video for 10 minutes,video should run smooth and not stop,video runs smooth and does not stop,passed,TestUser3
+reconnect_1,video_module_1,P4,Verify the ability of the device to load a website,computer is already connected to the internet,open browser and run a video for 10 minutes,video runs and stops but continues shortly after,video runs and stop but continues shortly after,passed,TestUser4
+media_1,youtube_module_1,P5,Verify the ability to open multiple tabs,browser is launched ,"open browser, search for youtube, scroll on youtube feed
+","should be able to scroll though youtube feed with no glitches, bugs, or errors","scroll though youtube feed with no glitches, bugs, or errors",passed,TestUser5
+multipletabs_1,search_bar_module_1,P6,Verify that ability to load a website,browser is launched,click plus button in tab right continously,tabs appear to the right,tabs appear to the right,passed,TestUser6
+failedwebsiteload_1,search_bar_module_1,P7,Verify that device can connect to the hotspot,browser is launched,"search a given .com website
+",error message should appear,"error message appears
+",passed,TestUser7
+ hotspot_1,settings_module_1,P8,Verify that device can connect to the bluetooth,browser is launched,click on the hotspot on the top right corner of the browser,browser should become hotspot connected,"browser becomes hotspot connected
+",passed,TestUser8
+bluetooth_1,"blueooth_module_1
+",P9,Verify that device can message online,must have a bluetooth connection nearby,"connect bluetooth device  on top right corner
+",bluetooth gets connected ,bluetooth gets connected,passed,"TestUser9
+"
+media_1,"messenger_module_1
+",P10,Verify that device can message online,"must be connected to the internet
+",open messenger app on facebook.com,message on facebook gets connected,message on facebook gets connected ,passed,TestUser10
